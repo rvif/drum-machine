@@ -65,7 +65,7 @@
   background-color: blue;
   width: 20px;
   height: 19px;
-  margin: 2px 3px 2px 3px;
+  margin: 2.5px 3.5px 2px 3px;
   float: right;
   cursor: pointer;
 }
@@ -73,7 +73,7 @@
   background-color: blue;
   width: 20px;
   height: 19px;
-  margin: 2px 3px 2px 3px;
+  margin: 2.5px 3.5px 2px 3px;
   float: left;
   cursor: pointer;
 }
@@ -118,6 +118,13 @@
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
+  width: 8px;
+  height: 25px;
+  background: blue;
+  box-shadow: black 1px 1px 1px;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
   width: 8px;
   height: 25px;
   background: blue;
